@@ -5,7 +5,7 @@ In this project. I applied machine learning to evaluate credit card risk. Howeve
 
 I oversampled the data using the RandomOverSampler and SMOTE, undersampled the data using the ClusterCentroids aalgorithm. I then combined over and undersampling using the SMOTEENN algorithm. Then I compared these two to the BalancedRandomForestClassifier and EasyEnsembleClassifier. 
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results: Comparing accuracy scores, precision, and recall of all three models. 
 
 ### RandomOverSampler
 
@@ -50,4 +50,5 @@ I oversampled the data using the RandomOverSampler and SMOTE, undersampled the d
 
 - Recall: .94. This means that of the positive outcomes, the algorithm correctly classified them as positive 94% of the time.
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Summary and Recommendations
+While the precision level was the same for all six machine learning models. The two models with the highest balanced accuracy scores and recall levels are the last two: Random Forest Classifier and Easy Ensemble Classifier. Ultimatley, I would recommend the Easy Ensemble Classifier because it had an Balanced Accuracy Score of 93.2% and a Recall of 94%, making it the most reliable algorithm for Credit Risk. 
