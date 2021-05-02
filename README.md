@@ -7,6 +7,30 @@ I oversampled the data using the RandomOverSampler and SMOTE, undersampled the d
 
 ## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-- 
+### RandomOverSampler
+
+- Balanced accuracy score: .640. This means that the model is correct 64.0% of the time. 
+
+- Precision: .99. This means that the algorithm is 99% reliable in prediciting positive classifications.
+
+- Recall: .62. This means that of the positive outcomes, the algorithm correctly classified them as positive 62% of the time.
+
+### SMOTE
+- Balanced accuracy score: .651. This means that the model is correct 65.1% of the time. 
+
+- Precision: .99. This means that the algorithm is 99% reliable in prediciting positive classifications. 
+
+- Recall: .69. This means that of the positive outcomes, the algorithm correctly classified them as positive 69% of the time.
+
+### ClusterCentroids
+- Balanced accuracy score: .640. This means that the model is correct 64.0% of the time. 
+
+- Precision: .99. This means that the algorithm is 99% reliable in prediciting positive classifications. 
+
+- Recall: .62. This means that of the positive outcomes, the algorithm correctly classified them as positive 62% of the time.
+
+### SMOTEENN 
+### BalancedRandomForestClassifier
+### EasyEnsembleClassifier
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
