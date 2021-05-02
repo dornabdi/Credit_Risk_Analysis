@@ -30,7 +30,19 @@ I oversampled the data using the RandomOverSampler and SMOTE, undersampled the d
 - Recall: .62. This means that of the positive outcomes, the algorithm correctly classified them as positive 62% of the time.
 
 ### SMOTEENN 
+- Balanced accuracy score: .645. This means that the model is correct 64.5% of the time. 
+
+- Precision: .99. This means that the algorithm is 99% reliable in prediciting positive classifications. 
+
+- Recall: .57. This means that of the positive outcomes, the algorithm correctly classified them as positive 57% of the time.
+
 ### BalancedRandomForestClassifier
+- Balanced accuracy score: .789. This means that the model is correct 78.9% of the time. 
+
+- Precision: .99. This means that the algorithm is 99% reliable in prediciting positive classifications. 
+
+- Recall: .87. This means that of the positive outcomes, the algorithm correctly classified them as positive 87% of the time.
+
 ### EasyEnsembleClassifier
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
