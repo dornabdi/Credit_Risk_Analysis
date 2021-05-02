@@ -44,5 +44,10 @@ I oversampled the data using the RandomOverSampler and SMOTE, undersampled the d
 - Recall: .87. This means that of the positive outcomes, the algorithm correctly classified them as positive 87% of the time.
 
 ### EasyEnsembleClassifier
+- Balanced accuracy score: .932. This means that the model is correct 93.2% of the time. 
+
+- Precision: .99. This means that the algorithm is 99% reliable in prediciting positive classifications. 
+
+- Recall: .94. This means that of the positive outcomes, the algorithm correctly classified them as positive 94% of the time.
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
