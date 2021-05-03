@@ -69,5 +69,5 @@ I oversampled the data using the RandomOverSampler and SMOTE, undersampled the d
 <br/> ![eec2](images/eec2.png) <br/> <br/>
 
 
-Summary and Recommendations
+## Summary and Recommendations
 While the precision level was the same for all six machine learning models. The two models with the highest balanced accuracy scores and recall levels are the last two: Random Forest Classifier and Easy Ensemble Classifier. Ultimatley, I would recommend the Easy Ensemble Classifier because it had an Balanced Accuracy Score of 93.2% and a Recall of 94%, making it the most reliable algorithm for Credit Risk. 
